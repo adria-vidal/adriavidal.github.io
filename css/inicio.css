@@ -34,7 +34,7 @@
     display: grid;
     grid-template-areas: 'lg  menu bandera';
   }
-  div#wrapper {
+  div#respmenu {
     visibility: hidden;
   }
   div#logo {
@@ -209,8 +209,10 @@
   nav#menu {
     visibility: hidden;
   }
-  div#header_hamburguesa {
+  div.respmenu {
     grid-area: menu;
+    z-index: 100;
+    height: 75px;
   }
 
   div#logo {
